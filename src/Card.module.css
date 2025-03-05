@@ -1,0 +1,126 @@
+/* .card {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+}
+
+img {
+    height: 250px;
+    width: 480px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+
+}
+
+.btn {
+    position: relative;
+    left: 380px;
+
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+h2 {
+    position: relative;
+    left: 10px;
+}
+
+.tab {
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+} */
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #a3a3a3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b30000;
+}
+
+.tableContainer {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.gridTable {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .gridTable {
+        grid-template-columns: 1fr;
+    }
+}
